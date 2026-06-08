@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Event Registration System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Event Registration System</h1>
+
+<div id="events-container"></div>
+
+
+<div id="registration-modal" class="modal hidden">
+
+    <div class="modal-content">
+
+        <h2>Register Event</h2>
+
+        <input id="name" placeholder="Name">
+
+        <input id="email" placeholder="Email">
+
+        <input id="phone" placeholder="Phone">
+
+        <button onclick="submitRegistration()">
+
+            Register
+
+        </button>
+
+        <button onclick="closeModal()">
+
+            Cancel
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
